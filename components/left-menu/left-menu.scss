@@ -1,0 +1,24 @@
+.left-nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background-color: #eaeaea;
+
+    &__logo-base {
+        background-color: #eaeaea;
+        z-index: 9999;
+    }
+    &__logo{
+        width: 193px;
+        height: 55px;
+        padding-top: $generic-padding;
+    }
+
+    &__menu {
+        &--primary {
+            margin: 20px 0px 0px 0px;
+            padding:0px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import '../../styles/_variables.scss';
+@import '../../styles/_utility.scss';
+
+html, body {
+    color: $white!important;
+    font-family: $base-font!important;
+    font-size: $base-font-size!important;
+    font-weight: $base-font-weight!important;
+    line-height: $base-line-height!important;
+    min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $base-font!important;
+  font-weight: $headings-font-weight!important;
+  color: $white!important;
+}
+
+.container-fluid {
+    position:relative;
+}

@@ -1,0 +1,36 @@
+@import '../../styles/_variables.scss';
+@import '../../styles/_utility.scss';
+
+.app-header {
+    height: 5.3em;
+    &__menu {
+        height: 100%;
+        ul {
+            padding: 0px;
+            margin: 0px;
+            li {
+                padding: 5px;
+                margin: 0px 0px 0px 10px;
+                list-style: none;
+                i.glyphicon {
+                    margin: 4px
+                }
+            }
+        }
+        &--top {
+            li {
+                float: right;
+            }
+        }
+        &--main {
+            ul{
+                li {
+                    float: left;
+                    line-height: 0.9em;
+                    margin: 0px 0px 0px 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
